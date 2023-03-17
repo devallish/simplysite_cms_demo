@@ -118,13 +118,13 @@ export async function getServerSideProps({ params, previewData }) {
   };
 }
 
-export async function getStaticPaths() {
-  const client = createClient();
+// export async function getStaticPaths() {
+//   const client = createClient();
 
-  const articles = await client.getAllByType("article");
+//   const articles = await client.getAllByType("article");
 
-  return {
-    paths: articles.map((article) => prismicH.asLink(article)),
-    fallback: false,
-  };
-}
+//   return {
+//     paths: articles.map((article) => prismicH.asLink(article)),
+//     fallback: false,
+//   };
+// }

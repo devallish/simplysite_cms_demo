@@ -47,6 +47,8 @@ export async function getServerSideProps({ previewData }) {
       articles,
       navigation,
       settings,
+      paths: articles.map((article) => prismicH.asLink(article)),
+      fallback: false,
     },
   };
 }
