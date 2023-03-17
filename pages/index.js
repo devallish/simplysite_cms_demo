@@ -29,7 +29,8 @@ const Index = ({ articles, navigation, settings }) => {
 
 export default Index;
 
-export async function getStaticProps({ previewData }) {
+// export async function getStaticProps({ previewData }) {
+export async function getServerSideProps({ previewData }) {
   const client = createClient({ previewData });
 
   const articles = await client.getAllByType("article", {

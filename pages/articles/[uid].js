@@ -94,12 +94,12 @@ const Article = ({ article, latestArticles, navigation, settings }) => {
 
 export default Article;
 
-export async function getStaticProps({ params, previewData }) {
+export async function getServerSideProps({ params, previewData }) {
   const client = createClient({ previewData });
 
   const article = await client.getByUID("article", params.uid);
   const latestArticles = await client.getAllByType("article", {
-    limit: 3,
+    limit: 10,
     orderings: [
       { field: "my.article.publishDate", direction: "desc" },
       { field: "document.first_publication_date", direction: "desc" },
