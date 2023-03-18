@@ -1,0 +1,1 @@
+{"c":["pages/_app","webpack"],"r":["pages/index"],"m":["./components/Article.js","./lib/dateFormatter.js","./lib/findFirstImage.js","./lib/getExcerpt.js","./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?absolutePagePath=%2FUsers%2Fdavegregory%2FDev%2Fsimplysite_cms_demo%2Fpages%2Findex.js&page=%2F!","./pages/index.js"]}

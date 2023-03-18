@@ -61,7 +61,7 @@ export default function App({ Component, pageProps }) {
       richTextComponents={richTextComponents}
     >
       {/* TODO: Remove the following element once you have read the documentation. */}
-      {process.env.NODE_ENV === "development" && (
+      {/* {process.env.NODE_ENV === "development" && (
         <div
           style={{
             background: "#5163ba",
@@ -85,7 +85,7 @@ export default function App({ Component, pageProps }) {
             . Remove this bar in <code>pages/_app.js</code>.
           </p>
         </div>
-      )}
+      )} */}
       <PrismicPreview repositoryName={repositoryName}>
         <Component {...pageProps} />
       </PrismicPreview>

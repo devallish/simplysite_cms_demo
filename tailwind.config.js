@@ -7,6 +7,11 @@ module.exports = {
         '"Libre Baskerville", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif',
     },
     extend: {},
+    colors: {
+      blue: '#a5b4fc',
+      teal: '#99f6e4',
+      zinc: '#d4d4d8'
+    }
   },
   plugins: [require("@tailwindcss/aspect-ratio")],
 };
