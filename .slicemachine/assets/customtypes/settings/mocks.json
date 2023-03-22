@@ -1,0 +1,67 @@
+{
+  "name": {
+    "__TYPE__": "StructuredTextContent",
+    "value": [
+      {
+        "type": "heading1",
+        "content": {
+          "text": "Decide"
+        }
+      }
+    ]
+  },
+  "description": {
+    "__TYPE__": "StructuredTextContent",
+    "value": [
+      {
+        "type": "paragraph",
+        "content": {
+          "text": "Aliqua et adipisicing sit tempor proident ad ut magna ullamco sit excepteur cillum non. Tempor ipsum nulla ipsum elit aliquip ipsum amet velit irure dolor et fugiat veniam ipsum."
+        }
+      }
+    ]
+  },
+  "profilePicture": {
+    "__TYPE__": "ImageContent",
+    "origin": {
+      "id": "main",
+      "url": "https://images.unsplash.com/photo-1587840171670-8b850147754e",
+      "width": 4480,
+      "height": 4480
+    },
+    "url": "https://images.unsplash.com/photo-1587840171670-8b850147754e?rect=0%2C0%2C4480%2C4480&w=2000&h=2000",
+    "width": 2000,
+    "height": 2000,
+    "edit": {
+      "zoom": 1,
+      "crop": {
+        "x": 0,
+        "y": 0
+      },
+      "background": "transparent"
+    },
+    "thumbnails": {}
+  },
+  "newsletterDescription": {
+    "__TYPE__": "StructuredTextContent",
+    "value": [
+      {
+        "type": "paragraph",
+        "content": {
+          "text": "Quis mollit Lorem ea pariatur commodo deserunt minim labore labore anim exercitation proident ad ipsum quis. Occaecat qui sit reprehenderit ea incididunt cupidatat voluptate ex ut consequat fugiat exercitation sunt veniam aliquip."
+        }
+      }
+    ]
+  },
+  "newsletterDisclaimer": {
+    "__TYPE__": "StructuredTextContent",
+    "value": [
+      {
+        "type": "paragraph",
+        "content": {
+          "text": "Ad labore dolore duis consectetur ut velit sunt do deserunt."
+        }
+      }
+    ]
+  }
+}

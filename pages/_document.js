@@ -13,7 +13,7 @@ export default function Document() {
           rel="stylesheet"
         />
       </Head>
-      <body className="bg-zinc overflow-x-hidden antialiased">
+      <body className="bg-teal overflow-x-hidden antialiased">
         <Main />
         <NextScript />
       </body>
